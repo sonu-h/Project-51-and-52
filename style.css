@@ -1,0 +1,62 @@
+h1 {
+    color: whitesmoke;
+}
+
+.header{
+    background-color: rgb(17, 97, 106);
+display: flex ;
+justify-content: space-between;
+padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+    margin: 30px;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+    border: solid;
+    padding: 10px;
+    
+}
+.image{
+    border: 5px solid blue;
+    border-radius: 5%;
+    padding: 10px;
+    margin: 10px;
+}
+.image:hover{
+    transform: scale(1.2);
+    border-radius: 20%;
+}
+body{
+    margin: 0px;
+}
+a:link{
+    color:white;
+}
+a:visited{
+color: yellow;
+}
+.item{ 
+    position: relative;
+}
+.item h4{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%)
+}
+a{
+    text-decoration: none;
+}
+h4{
+    text-decoration: underline;
+}
